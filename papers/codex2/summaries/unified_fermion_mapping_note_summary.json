@@ -1,0 +1,40 @@
+{
+  "conclusion": "The unified fermion mapping note is now locked: the mapped matter sectors share one weak-gap ladder, sector-specific branch tuples, and a near-integer slope ladder {2, 3, 4}.",
+  "conclusion_code": "unified_fermion_mapping_note_confirmed",
+  "firewall_note": "Exploratory RFTP outputs are hypothesis-generation artifacts only and are not part of the strict Alpha26 certified derivation path.",
+  "objective": "Freeze the unified bounded matter-sector mapping into manuscript-safe language.",
+  "recommendation": {
+    "keep_mapped_sector_boundary_explicit": true,
+    "next_step": "fermion_mapping_paper_patch",
+    "portable_risk_id": "slice_percentile_pair_max"
+  },
+  "reference": {
+    "fixture_id": "repaired_anchor_canonical_v1",
+    "portable_risk_id": "slice_percentile_pair_max",
+    "repo_root": "/mnt/c/Users/effec/My Drive/DropletBackup/home",
+    "source_artifact": "unified_fermion_mapping_master_summary.json",
+    "source_conclusion_code": "unified_fermion_mapping_master_built"
+  },
+  "ticket": "UNIFIED-FERMION-MAPPING-NOTE",
+  "unified_fermion_mapping_note_summary_rows": [
+    {
+      "key_metric": 1.961412191123702,
+      "key_result": "The mapped matter sectors land on the current integer ladder {2, 3, 4}.",
+      "summary_id": "sector_integer_ladder",
+      "supporting_detail": "Down-type, lepton, and up-type sectors round to integers 2, 3, and 4."
+    },
+    {
+      "key_metric": 0.20160239886986356,
+      "key_result": "All 9 mapped fermions currently fit on one shared weak-gap ladder with sector-specific tuples.",
+      "summary_id": "shared_weak_gap_ladder",
+      "supporting_detail": "Worst sector MAPE remains 0.20160% in the current bounded artifact set."
+    },
+    {
+      "key_metric": 3.0,
+      "key_result": "The unified matter map preserves both terminal-anchor and middle-anchor families rather than one universal tuple.",
+      "summary_id": "mixed_anchor_structure",
+      "supporting_detail": "Down-type uses (-3, 0, 3), while leptons and up-type share k3 = 0."
+    }
+  ],
+  "writeup_note_markdown": "# Unified Fermion Mapping Note\n\n## Objective\n\nThis note freezes the current bounded matter-sector mapping into one\nmanuscript-safe summary across:\n\n- down-type quarks\n- leptons\n- up-type quarks\n\nall carried on the shared `SU(2)` topological gap ladder.\n\n## Locked Classification\n\n- `unified_fermion_mapping_note_confirmed`\n\n## Sector Summary\n\n| Sector | Integer | A | B | Tuple | Sector MAPE |\n|---|---:|---:|---:|---|---:|\n| `Down-Type Quarks` | 2 | 0.1914656 | 2.0732971 | `(-3, 0, 3)` | 0.01560% |\n| `Leptons` | 3 | 0.0028923 | 3.0330469 | `(0, 5, 0)` | 0.20160% |\n| `Up-Type Quarks` | 4 | 0.0034558 | 4.0347093 | `(-2, 2, 0)` | 0.00669% |\n\n## Full 9-Fermion Readout\n\n| Sector | Particle | Gen | Predicted mass (MeV) | Experimental mass (MeV) | Percent error |\n|---|---|---:|---:|---:|---:|\n| `Down-Type Quarks` | `down` | 1 | 4.6694 | 4.6700 | -0.0131% |\n| `Down-Type Quarks` | `strange` | 2 | 93.0218 | 93.0000 | +0.0234% |\n| `Down-Type Quarks` | `bottom` | 3 | 4179.5695 | 4180.0000 | -0.0103% |\n| `Leptons` | `electron` | 1 | 0.5105 | 0.5110 | -0.1044% |\n| `Leptons` | `muon` | 2 | 105.9799 | 105.6600 | +0.3028% |\n| `Leptons` | `tau` | 3 | 1773.2883 | 1776.8000 | -0.1976% |\n| `Up-Type Quarks` | `up` | 1 | 2.1599 | 2.1600 | -0.0044% |\n| `Up-Type Quarks` | `charm` | 2 | 1270.1275 | 1270.0000 | +0.0100% |\n| `Up-Type Quarks` | `top` | 3 | 172750.2075 | 172760.0000 | -0.0057% |\n\n## Interpretation\n\nThe current bounded lock is:\n\n- down-type quarks land near sector integer `2`\n- leptons land near sector integer `3`\n- up-type quarks land near sector integer `4`\n\nwith each sector carrying a distinct small-integer branch tuple:\n\n- down-type: `(-3, 0, 3)`\n- leptons: `(0, 5, 0)`\n- up-type: `(-2, 2, 0)`\n\nThe manuscript-safe conclusion is:\n\n> The currently mapped matter sectors admit a common weak-gap vacuum ladder,\n> but they couple to that ladder through sector-specific integer branch\n> patterns and sector-specific near-integer slope classes.\n\nThe cleanest current structural features are:\n\n- a down-type middle-generation anchor\n- a lepton/up-type shared third-generation anchor\n- a near-integer matter-sector slope ladder `{2, 3, 4}`\n\n## Promotion Boundary\n\nThis note promotes:\n\n- the unified bounded 9-fermion mapping artifact\n- the sector-integer ladder `{2, 3, 4}` as the cleanest current matter-sector summary\n- the claim that the mapped matter sectors live on one shared weak-gap ladder\n\nThis note does **not** promote:\n\n- full Standard Model completion beyond the mapped sectors\n- neutrino, CKM, or PMNS closure\n- a final continuum or group-theoretic derivation\n"
+}

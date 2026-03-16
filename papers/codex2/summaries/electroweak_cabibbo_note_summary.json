@@ -1,0 +1,42 @@
+{
+  "conclusion": "The electroweak and Cabibbo note is now locked: the E8 lattice scale bridges cleanly to the VEV and W/Z masses, while Cabibbo mixing is captured by a tight mixed branch-gap relation on the weak ladder.",
+  "conclusion_code": "electroweak_cabibbo_note_confirmed",
+  "electroweak_cabibbo_note_summary_rows": [
+    {
+      "key_metric": 0.00017899252375923308,
+      "key_result": "The lattice scale mu_0 now bridges directly to the electroweak VEV through a simple E8 polynomial.",
+      "summary_id": "vev_scale_bridge",
+      "supporting_detail": "Best bridge = 5*248 + 8."
+    },
+    {
+      "key_metric": 0.0051101251807711325,
+      "key_result": "The same bounded bridge keeps the derived W and Z masses inside a sub-percent geometric band.",
+      "summary_id": "boson_prediction_band",
+      "supporting_detail": "M_W = 80169.3769 MeV, M_Z = 90721.6199 MeV."
+    },
+    {
+      "key_metric": 0.0005690533631064357,
+      "key_result": "Cabibbo mixing is best captured by a mixed branch-gap relation, not by a branch-only harmonic alone.",
+      "summary_id": "cabibbo_topology_lock",
+      "supporting_detail": "Best relation = 3*gap_split_12*sqrt_delta_branch."
+    }
+  ],
+  "firewall_note": "Exploratory RFTP outputs are hypothesis-generation artifacts only and are not part of the strict Alpha26 certified derivation path.",
+  "objective": "Freeze the bounded electroweak scale bridge and Cabibbo mixing result into manuscript-safe language.",
+  "recommendation": {
+    "keep_vev_bridge_and_cabibbo_boundary_explicit": true,
+    "next_step": "higgs_mass_topology_probe",
+    "portable_risk_id": "slice_percentile_pair_max"
+  },
+  "reference": {
+    "cabibbo_source_artifact": "cabibbo_angle_summary.json",
+    "cabibbo_source_conclusion_code": "cabibbo_angle_topology_supported",
+    "electroweak_source_artifact": "electroweak_scale_summary.json",
+    "electroweak_source_conclusion_code": "electroweak_scale_geometric_bridge_supported",
+    "fixture_id": "repaired_anchor_canonical_v1",
+    "portable_risk_id": "slice_percentile_pair_max",
+    "repo_root": "/mnt/c/Users/effec/My Drive/DropletBackup/home"
+  },
+  "ticket": "ELECTROWEAK-CABIBBO-NOTE",
+  "writeup_note_markdown": "# Electroweak and Cabibbo Note\n\n## Objective\n\nThis note freezes the current bounded electroweak-scale bridge and Cabibbo\nmixing result into one manuscript-safe artifact.\n\n## Locked Classifications\n\n- `electroweak_scale_geometric_bridge_supported`\n- `cabibbo_angle_topology_supported`\n\n## Electroweak Scale Bridge\n\nThe best bounded polynomial bridge from the microscopic lattice scale to the\nelectroweak scale is:\n\n- `v = mu_0 * (5*248 + 8)`\n- `mu_0 = 197.3269804 MeV`\n- predicted `v = 246264.0715 MeV`\n- predicted `M_W = 80169.3769 MeV`\n- predicted `M_Z = 90721.6199 MeV`\n\n| Observable | Predicted value (MeV) | Target value (MeV) | Relative error |\n|---|---:|---:|---:|\n| `vev` | 246264.0715 | 246220.0000 | 0.0179% |\n| `mw` | 80169.3769 | 80379.0000 | 0.2608% |\n| `mz` | 90721.6199 | 91187.6000 | 0.5110% |\n\nThe manuscript-safe interpretation is:\n\n> The electroweak VEV behaves like a macroscopic scaling of the microscopic\n> lattice scale `mu_0` through pure `E8` invariants. In the current bounded\n> search, the cleanest bridge is `5*248 + 8`, i.e. five copies of the adjoint\n> dimension plus the eight-dimensional Cartan rank.\n\n## Cabibbo Mixing\n\nThe supported bounded Cabibbo relation is:\n\n- `tan(theta_C) ~= 3 * ((Delta_2 - Delta_1) / Delta_2) * sqrt(delta_branch)`\n- predicted `tan(theta_C) = 0.2307896962`\n- target `tan(theta_C) = 0.2309211026`\n- relative error = `0.0569%`\n- predicted `theta_C = 13.3436 deg`\n\nThis is stronger than the best pure branch-only competitor\n`sin(theta_C) ~= 7 * delta_branch`, and it means the first-two-generation weak\ngap structure is not optional in the current lock.\n\n## Interpretation\n\nThe combined manuscript-safe conclusion is:\n\n> The electroweak VEV, the `W/Z` masses, and the Cabibbo mixing angle all admit\n> bounded geometric reconstructions from the same `E8` lattice-scale and\n> weak-gap framework.\n\nThis note promotes:\n\n- the electroweak scale bridge from `mu_0` to `v`\n- the bounded `W/Z` mass predictions\n- the bounded topological quantization of the Cabibbo angle\n\nThis note does **not** promote:\n\n- a full Higgs-sector derivation\n- a complete CKM matrix derivation\n- a unique electroweak completion beyond the currently tested bounded formulas\n"
+}

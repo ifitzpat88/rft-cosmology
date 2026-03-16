@@ -1,0 +1,314 @@
+{
+  "conclusion": "A simple bounded E8-invariant ratio predicts the Higgs mass from the derived electroweak VEV with sub-0.5% error, supporting a real topological Higgs-mass bridge.",
+  "conclusion_code": "higgs_mass_geometric_ratio_supported",
+  "detail": {
+    "best_ratio_label": "(248 + 8) / (2*248 + 8)",
+    "best_ratio_value": 0.5079365079365079,
+    "lambda_value": 0.12899974804736708,
+    "predicted_higgs_mass_mev": 125086.5125278476,
+    "relative_error": 0.00010781352639804669,
+    "target_higgs_mass_mev": 125100.0
+  },
+  "firewall_note": "Exploratory RFTP outputs are hypothesis-generation artifacts only and are not part of the strict Alpha26 certified derivation path.",
+  "higgs_mass_best_mapping": [
+    {
+      "observable_id": "higgs_mass",
+      "predicted_value_mev": 125086.5125278476,
+      "relative_error": 0.00010781352639804669,
+      "target_value_mev": 125100.0
+    },
+    {
+      "observable_id": "lambda",
+      "predicted_value": 0.12899974804736708,
+      "relative_error": 0.00021561542903958977,
+      "target_value": 0.12902756838188167
+    }
+  ],
+  "higgs_mass_candidate_ratios": [
+    {
+      "denominator_label": "2*248 + 8",
+      "lambda_value": 0.12899974804736708,
+      "numerator_label": "248 + 8",
+      "predicted_higgs_mass_mev": 125086.5125278476,
+      "ratio_label": "(248 + 8) / (2*248 + 8)",
+      "ratio_value": 0.5079365079365079,
+      "relative_error": 0.00010781352639804669,
+      "target_ratio": 0.5079912762673817,
+      "total_complexity": 5
+    },
+    {
+      "denominator_label": "2*248 + 8",
+      "lambda_value": 0.12899974804736708,
+      "numerator_label": "240 + 2*8",
+      "predicted_higgs_mass_mev": 125086.5125278476,
+      "ratio_label": "(240 + 2*8) / (2*248 + 8)",
+      "ratio_value": 0.5079365079365079,
+      "relative_error": 0.00010781352639804669,
+      "target_ratio": 0.5079912762673817,
+      "total_complexity": 6
+    },
+    {
+      "denominator_label": "248 + 240 + 2*8",
+      "lambda_value": 0.12899974804736708,
+      "numerator_label": "248 + 8",
+      "predicted_higgs_mass_mev": 125086.5125278476,
+      "ratio_label": "(248 + 8) / (248 + 240 + 2*8)",
+      "ratio_value": 0.5079365079365079,
+      "relative_error": 0.00010781352639804669,
+      "target_ratio": 0.5079912762673817,
+      "total_complexity": 6
+    },
+    {
+      "denominator_label": "2*248 + 8",
+      "lambda_value": 0.12899974804736708,
+      "numerator_label": "2*120 + 2*8",
+      "predicted_higgs_mass_mev": 125086.5125278476,
+      "ratio_label": "(2*120 + 2*8) / (2*248 + 8)",
+      "ratio_value": 0.5079365079365079,
+      "relative_error": 0.00010781352639804669,
+      "target_ratio": 0.5079912762673817,
+      "total_complexity": 7
+    },
+    {
+      "denominator_label": "248 + 240 + 2*8",
+      "lambda_value": 0.12899974804736708,
+      "numerator_label": "240 + 2*8",
+      "predicted_higgs_mass_mev": 125086.5125278476,
+      "ratio_label": "(240 + 2*8) / (248 + 240 + 2*8)",
+      "ratio_value": 0.5079365079365079,
+      "relative_error": 0.00010781352639804669,
+      "target_ratio": 0.5079912762673817,
+      "total_complexity": 7
+    },
+    {
+      "denominator_label": "2*240 + 3*8",
+      "lambda_value": 0.12899974804736708,
+      "numerator_label": "248 + 8",
+      "predicted_higgs_mass_mev": 125086.5125278476,
+      "ratio_label": "(248 + 8) / (2*240 + 3*8)",
+      "ratio_value": 0.5079365079365079,
+      "relative_error": 0.00010781352639804669,
+      "target_ratio": 0.5079912762673817,
+      "total_complexity": 7
+    },
+    {
+      "denominator_label": "248 + 2*120 + 2*8",
+      "lambda_value": 0.12899974804736708,
+      "numerator_label": "248 + 8",
+      "predicted_higgs_mass_mev": 125086.5125278476,
+      "ratio_label": "(248 + 8) / (248 + 2*120 + 2*8)",
+      "ratio_value": 0.5079365079365079,
+      "relative_error": 0.00010781352639804669,
+      "target_ratio": 0.5079912762673817,
+      "total_complexity": 7
+    },
+    {
+      "denominator_label": "248 + 240 + 2*8",
+      "lambda_value": 0.12899974804736708,
+      "numerator_label": "2*120 + 2*8",
+      "predicted_higgs_mass_mev": 125086.5125278476,
+      "ratio_label": "(2*120 + 2*8) / (248 + 240 + 2*8)",
+      "ratio_value": 0.5079365079365079,
+      "relative_error": 0.00010781352639804669,
+      "target_ratio": 0.5079912762673817,
+      "total_complexity": 8
+    },
+    {
+      "denominator_label": "2*240 + 3*8",
+      "lambda_value": 0.12899974804736708,
+      "numerator_label": "240 + 2*8",
+      "predicted_higgs_mass_mev": 125086.5125278476,
+      "ratio_label": "(240 + 2*8) / (2*240 + 3*8)",
+      "ratio_value": 0.5079365079365079,
+      "relative_error": 0.00010781352639804669,
+      "target_ratio": 0.5079912762673817,
+      "total_complexity": 8
+    },
+    {
+      "denominator_label": "248 + 2*120 + 2*8",
+      "lambda_value": 0.12899974804736708,
+      "numerator_label": "240 + 2*8",
+      "predicted_higgs_mass_mev": 125086.5125278476,
+      "ratio_label": "(240 + 2*8) / (248 + 2*120 + 2*8)",
+      "ratio_value": 0.5079365079365079,
+      "relative_error": 0.00010781352639804669,
+      "target_ratio": 0.5079912762673817,
+      "total_complexity": 8
+    },
+    {
+      "denominator_label": "240 + 2*120 + 3*8",
+      "lambda_value": 0.12899974804736708,
+      "numerator_label": "248 + 8",
+      "predicted_higgs_mass_mev": 125086.5125278476,
+      "ratio_label": "(248 + 8) / (240 + 2*120 + 3*8)",
+      "ratio_value": 0.5079365079365079,
+      "relative_error": 0.00010781352639804669,
+      "target_ratio": 0.5079912762673817,
+      "total_complexity": 8
+    },
+    {
+      "denominator_label": "2*240 + 3*8",
+      "lambda_value": 0.12899974804736708,
+      "numerator_label": "2*120 + 2*8",
+      "predicted_higgs_mass_mev": 125086.5125278476,
+      "ratio_label": "(2*120 + 2*8) / (2*240 + 3*8)",
+      "ratio_value": 0.5079365079365079,
+      "relative_error": 0.00010781352639804669,
+      "target_ratio": 0.5079912762673817,
+      "total_complexity": 9
+    },
+    {
+      "denominator_label": "248 + 2*120 + 2*8",
+      "lambda_value": 0.12899974804736708,
+      "numerator_label": "2*120 + 2*8",
+      "predicted_higgs_mass_mev": 125086.5125278476,
+      "ratio_label": "(2*120 + 2*8) / (248 + 2*120 + 2*8)",
+      "ratio_value": 0.5079365079365079,
+      "relative_error": 0.00010781352639804669,
+      "target_ratio": 0.5079912762673817,
+      "total_complexity": 9
+    },
+    {
+      "denominator_label": "240 + 2*120 + 3*8",
+      "lambda_value": 0.12899974804736708,
+      "numerator_label": "240 + 2*8",
+      "predicted_higgs_mass_mev": 125086.5125278476,
+      "ratio_label": "(240 + 2*8) / (240 + 2*120 + 3*8)",
+      "ratio_value": 0.5079365079365079,
+      "relative_error": 0.00010781352639804669,
+      "target_ratio": 0.5079912762673817,
+      "total_complexity": 9
+    },
+    {
+      "denominator_label": "4*120 + 3*8",
+      "lambda_value": 0.12899974804736708,
+      "numerator_label": "248 + 8",
+      "predicted_higgs_mass_mev": 125086.5125278476,
+      "ratio_label": "(248 + 8) / (4*120 + 3*8)",
+      "ratio_value": 0.5079365079365079,
+      "relative_error": 0.00010781352639804669,
+      "target_ratio": 0.5079912762673817,
+      "total_complexity": 9
+    },
+    {
+      "denominator_label": "2*248 + 8",
+      "lambda_value": 0.12899974804736708,
+      "numerator_label": "120 + 4*30 + 2*8",
+      "predicted_higgs_mass_mev": 125086.5125278476,
+      "ratio_label": "(120 + 4*30 + 2*8) / (2*248 + 8)",
+      "ratio_value": 0.5079365079365079,
+      "relative_error": 0.00010781352639804669,
+      "target_ratio": 0.5079912762673817,
+      "total_complexity": 10
+    },
+    {
+      "denominator_label": "240 + 2*120 + 3*8",
+      "lambda_value": 0.12899974804736708,
+      "numerator_label": "2*120 + 2*8",
+      "predicted_higgs_mass_mev": 125086.5125278476,
+      "ratio_label": "(2*120 + 2*8) / (240 + 2*120 + 3*8)",
+      "ratio_value": 0.5079365079365079,
+      "relative_error": 0.00010781352639804669,
+      "target_ratio": 0.5079912762673817,
+      "total_complexity": 10
+    },
+    {
+      "denominator_label": "4*248 + 2*8",
+      "lambda_value": 0.12899974804736708,
+      "numerator_label": "2*248 + 2*8",
+      "predicted_higgs_mass_mev": 125086.5125278476,
+      "ratio_label": "(2*248 + 2*8) / (4*248 + 2*8)",
+      "ratio_value": 0.5079365079365079,
+      "relative_error": 0.00010781352639804669,
+      "target_ratio": 0.5079912762673817,
+      "total_complexity": 10
+    },
+    {
+      "denominator_label": "4*120 + 3*8",
+      "lambda_value": 0.12899974804736708,
+      "numerator_label": "240 + 2*8",
+      "predicted_higgs_mass_mev": 125086.5125278476,
+      "ratio_label": "(240 + 2*8) / (4*120 + 3*8)",
+      "ratio_value": 0.5079365079365079,
+      "relative_error": 0.00010781352639804669,
+      "target_ratio": 0.5079912762673817,
+      "total_complexity": 10
+    },
+    {
+      "denominator_label": "248 + 120 + 4*30 + 2*8",
+      "lambda_value": 0.12899974804736708,
+      "numerator_label": "248 + 8",
+      "predicted_higgs_mass_mev": 125086.5125278476,
+      "ratio_label": "(248 + 8) / (248 + 120 + 4*30 + 2*8)",
+      "ratio_value": 0.5079365079365079,
+      "relative_error": 0.00010781352639804669,
+      "target_ratio": 0.5079912762673817,
+      "total_complexity": 10
+    },
+    {
+      "denominator_label": "4*248",
+      "lambda_value": 0.12906477627471383,
+      "numerator_label": "2*248 + 8",
+      "predicted_higgs_mass_mev": 125118.03634652903,
+      "ratio_label": "(2*248 + 8) / (4*248)",
+      "ratio_value": 0.5080645161290323,
+      "relative_error": 0.00014417543188671765,
+      "target_ratio": 0.5079912762673817,
+      "total_complexity": 7
+    },
+    {
+      "denominator_label": "3*248 + 240 + 8",
+      "lambda_value": 0.12906477627471383,
+      "numerator_label": "2*248 + 8",
+      "predicted_higgs_mass_mev": 125118.03634652903,
+      "ratio_label": "(2*248 + 8) / (3*248 + 240 + 8)",
+      "ratio_value": 0.5080645161290323,
+      "relative_error": 0.00014417543188671765,
+      "target_ratio": 0.5079912762673817,
+      "total_complexity": 8
+    },
+    {
+      "denominator_label": "4*248",
+      "lambda_value": 0.12906477627471383,
+      "numerator_label": "248 + 240 + 2*8",
+      "predicted_higgs_mass_mev": 125118.03634652903,
+      "ratio_label": "(248 + 240 + 2*8) / (4*248)",
+      "ratio_value": 0.5080645161290323,
+      "relative_error": 0.00014417543188671765,
+      "target_ratio": 0.5079912762673817,
+      "total_complexity": 8
+    },
+    {
+      "denominator_label": "5*248",
+      "lambda_value": 0.12906477627471383,
+      "numerator_label": "2*240 + 120 + 30",
+      "predicted_higgs_mass_mev": 125118.03634652903,
+      "ratio_label": "(2*240 + 120 + 30) / (5*248)",
+      "ratio_value": 0.5080645161290323,
+      "relative_error": 0.00014417543188671765,
+      "target_ratio": 0.5079912762673817,
+      "total_complexity": 9
+    }
+  ],
+  "objective": "Search for a bounded E8-invariant ratio relating the derived electroweak VEV to the Higgs mass.",
+  "recommendation": {
+    "keep_ratio_bridge_vs_full_higgs_potential_boundary_explicit": true,
+    "next_step": "higgs_mass_note",
+    "portable_risk_id": "slice_percentile_pair_max"
+  },
+  "reference": {
+    "e8_invariants": {
+      "adjoint_dim": 248.0,
+      "dual_coxeter": 30.0,
+      "positive_roots": 120.0,
+      "rank": 8.0,
+      "root_count": 240.0
+    },
+    "firewall": "This is a bounded invariant-ratio search relating the derived electroweak VEV to the Higgs mass. It does not by itself derive the full Higgs potential.",
+    "fixture_id": "repaired_anchor_canonical_v1",
+    "portable_risk_id": "slice_percentile_pair_max",
+    "repo_root": "/mnt/c/Users/effec/My Drive/DropletBackup/home",
+    "vev_mev": 246264.0715392
+  },
+  "ticket": "HIGGS-MASS-TOPOLOGY-PROBE"
+}

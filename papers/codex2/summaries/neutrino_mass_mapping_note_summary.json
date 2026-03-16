@@ -1,0 +1,40 @@
+{
+  "conclusion": "The neutrino mass mapping note is now locked: the shared weak-gap ladder supports a very high-precision bounded neutrino map, but the anomalous slope keeps the neutrino lane outside the charged-sector integer ladder.",
+  "conclusion_code": "neutrino_mass_mapping_note_confirmed",
+  "firewall_note": "Exploratory RFTP outputs are hypothesis-generation artifacts only and are not part of the strict Alpha26 certified derivation path.",
+  "neutrino_mass_mapping_note_summary_rows": [
+    {
+      "key_metric": 0.051726533308569494,
+      "key_result": "The constrained neutrino search still yields a very high-precision bounded mass map on the shared weak-gap ladder.",
+      "summary_id": "neutrino_map_precision",
+      "supporting_detail": "Log-scale R^2 = 0.9999994."
+    },
+    {
+      "key_metric": 0.775,
+      "key_result": "The best neutrino slope stays materially below 1, so the current integer matter-sector ladder does not close through the neutrino lane.",
+      "summary_id": "anomalous_neutrino_slope",
+      "supporting_detail": "Slope distance from 1 = 0.225."
+    },
+    {
+      "key_metric": 5.11757450207201e-08,
+      "key_result": "The neutrino lane looks structurally distinct from the charged sectors, consistent with a separate bounded coupling mechanism.",
+      "summary_id": "distinct_coupling_hint",
+      "supporting_detail": "Best tuple = (8, -5, -1)."
+    }
+  ],
+  "objective": "Freeze the bounded neutrino mass mapping result into manuscript-safe language.",
+  "recommendation": {
+    "keep_neutrino_anomaly_vs_ladder_completion_boundary_explicit": true,
+    "next_step": "electroweak_scale_geometric_probe",
+    "portable_risk_id": "slice_percentile_pair_max"
+  },
+  "reference": {
+    "fixture_id": "repaired_anchor_canonical_v1",
+    "portable_risk_id": "slice_percentile_pair_max",
+    "repo_root": "/mnt/c/Users/effec/My Drive/DropletBackup/home",
+    "source_artifact": "neutrino_mass_mapping_summary.json",
+    "source_conclusion_code": "neutrino_mapping_supported_without_slope_one"
+  },
+  "ticket": "NEUTRINO-MASS-MAPPING-NOTE",
+  "writeup_note_markdown": "# Neutrino Mass Mapping Note\n\n## Objective\n\nThis note freezes the bounded neutrino-sector mapping on the shared `SU(2)`\nweak-gap ladder while keeping the neutrino-specific coupling caveat explicit.\n\n## Locked Classification\n\n- `neutrino_mapping_supported_without_slope_one`\n\n## Main Readout\n\nThe best bounded neutrino map under the current constrained search is:\n\n- `k = (8, -5, -1)`\n- `delta_branch = 8 / 248`\n- `A_nu = 1.8964596392e-09`\n- `B_nu = 0.775`\n- log-scale `R^2 = 0.9999994`\n- mean absolute percent error = `0.05173%`\n\nThe fitted neutrino masses are:\n\n| Neutrino | Effective gap (MeV) | Predicted mass (MeV) | Target mass (MeV) | Percent error |\n|---|---:|---:|---:|---:|\n| `nu_e` | 2.1458 | 0.0000000100 | 0.0000000100 | +0.0402% |\n| `nu_mu` | 2.5024 | 0.0000000132 | 0.0000000132 | -0.0776% |\n| `nu_tau` | 4.2520 | 0.0000000512 | 0.0000000512 | +0.0374% |\n\n## Interpretation\n\nThe manuscript-safe conclusion is:\n\n> The shared weak-gap ladder supports a very high-precision bounded neutrino\n> mass map, but the best constrained slope lands at `B_nu = 0.775`\n> rather than near `1`, so the neutrino sector does not currently close the\n> `(1, 2, 3, 4)` matter-sector slope ladder.\n\nThat anomalous slope is the key physical clue. Under the current bounded\nreading, the neutrino lane looks different from the charged Dirac-style matter\nsectors:\n\n- the tuple is jagged rather than symmetric: `(8, -5, -1)`\n- the slope is suppressed relative to the charged-sector ladder\n- the mapping remains precise without collapsing onto the `B ~= 1` hypothesis\n\nThis supports a cautious interpretation in which neutrinos use a distinct\ntopological coupling mechanism, consistent with a Majorana/seesaw-style\ndeparture from the charged-sector ladder, rather than the same direct slope\nclass used by down-type quarks, charged leptons, and up-type quarks.\n\n## Non-Promotion Boundary\n\nThis note does **not** promote:\n\n- a final neutrino mass law\n- a literal Majorana or seesaw derivation\n- closure of the full `(1, 2, 3, 4)` sector ladder\n\nThe safe lock is narrower: the neutrino sector maps cleanly onto the same\nweak-gap ladder, but it does so through an anomalous bounded slope class rather\nthan through the charged-sector integer ladder.\n"
+}
